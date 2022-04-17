@@ -7,7 +7,6 @@ path = 'github.com/CaiJimmy/hugo-theme-stack/v3'
 disable = false
 
 [params]
-favicon = 'favicon.ico'
 
   [params.sidebar]
   subtitle = 'DevOps Enginner'
