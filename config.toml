@@ -20,27 +20,27 @@ disable = false
   math = false
   toc = true
   readingTime = true
-[[menu.social]]
+[[menu.main]]
 identifier = "linkedin"
 name = "LinkedIn"
 url = "https://www.linkedin.com/in/tormakris"
 
-  [menu.social.params]
+  [menu.main.params]
   icon = "brand-linkedin"
 
-[[menu.social]]
+[[menu.main]]
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/tormachris"
 
-  [menu.social.params]
+  [menu.main.params]
   icon = "brand-github"
 
 
-[[menu.social]]
+[[menu.main]]
 identifier = "cv"
 name = "CV"
 url = "https://cv.tormakristof.eu"
 
-  [menu.social.params]
+  [menu.main.params]
   icon = "document"
