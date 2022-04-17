@@ -4,3 +4,14 @@ title = 'TormaKris'
 [[module.imports]]
 path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 disable = false
+
+[params]
+favicon = "favicon.ico"
+
+  [params.sidebar]
+  subtitle = "DevOps Enginner"
+
+    [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.jpg"
