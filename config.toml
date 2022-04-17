@@ -1,6 +1,6 @@
 baseURL = 'https://www.tormakristof.eu/'
 languageCode = 'en-us'
-title = 'Kristóf Torma'
+title = 'HomeLab misadventures - Kristóf Torma'
 paginate = 5
 [[module.imports]]
 path = 'github.com/CaiJimmy/hugo-theme-stack/v3'
@@ -20,13 +20,14 @@ disable = false
   math = false
   toc = true
   readingTime = true
+
 [[menu.main]]
-identifier = "linkedin"
-name = "LinkedIn"
-url = "https://www.linkedin.com/in/tormakris"
+identifier = "cv"
+name = "CV"
+url = "https://cv.tormakristof.eu"
 
   [menu.main.params]
-  icon = "brand-linkedin"
+  icon = "file-certificate"
 
 [[menu.main]]
 identifier = "github"
@@ -36,11 +37,10 @@ url = "https://github.com/tormachris"
   [menu.main.params]
   icon = "brand-github"
 
-
 [[menu.main]]
-identifier = "cv"
-name = "CV"
-url = "https://cv.tormakristof.eu"
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/tormakris"
 
   [menu.main.params]
-  icon = "file-certificate"
+  icon = "brand-linkedin"
