@@ -1,4 +1,4 @@
-module github.com/me/my-new-blog
+module github.com/tormachris/personalsite-azure-static-webapp
 
 go 1.17
 
