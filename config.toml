@@ -1,17 +1,27 @@
 baseURL = 'https://www.tormakristof.eu/'
 languageCode = 'en-us'
-title = 'TormaKris'
+title = 'Kristóf Torma'
+paginate = 5
 [[module.imports]]
-path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+path = 'github.com/CaiJimmy/hugo-theme-stack/v3'
 disable = false
 
 [params]
-favicon = "favicon.ico"
+favicon = 'favicon.ico'
 
   [params.sidebar]
-  subtitle = "DevOps Enginner"
+  subtitle = 'DevOps Enginner'
 
     [params.sidebar.avatar]
     enabled = true
     local = true
-    src = "img/avatar.jpg"
+    src = 'avatar.jpg'
+
+  [params.article]
+  math = false
+  toc = true
+  readingTime = true
+
+    [params.article.license]
+    enabled = true
+    default = 'Licensed under CC BY-NC-SA 4.0'
