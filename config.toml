@@ -43,4 +43,4 @@ name = "CV"
 url = "https://cv.tormakristof.eu"
 
   [menu.main.params]
-  icon = "document"
+  icon = "file-certificate"
