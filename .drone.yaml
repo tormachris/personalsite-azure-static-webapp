@@ -10,4 +10,4 @@ steps:
     HUGO_VERSION: 0.97.1
   image: mcr.microsoft.com/appsvc/staticappsclient:stable
   commands:
-  - /bin/staticsites/StaticSitesClient --apiToken $APITOKEN --outputLocation "public" --app "/drone/src" --deployment_action "upload"
+  - /bin/staticsites/StaticSitesClient --apiToken $APITOKEN --outputLocation "public" --app "/drone/src" --deploymentaction "upload"
