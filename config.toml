@@ -3,13 +3,13 @@ languageCode = 'en-us'
 title = 'HomeLab misadventures'
 paginate = 5
 theme = "anubis"
-enableRobotsTXT: true
+enableRobotsTXT = true
 
 
 [params]
 author = "Kristof Torma"
 email = "iam@tormakristof.eu"
-copyCodeButton: true
+copyCodeButton = true
 
   [params.sidebar]
   subtitle = 'DevOps Enginner'
