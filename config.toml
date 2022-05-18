@@ -1,10 +1,15 @@
 baseURL = 'https://www.tormakristof.eu/'
 languageCode = 'en-us'
-title = 'HomeLab misadventures - Kristof Torma'
+title = 'HomeLab misadventures'
 paginate = 5
 theme = "anubis"
+enableRobotsTXT: true
+
 
 [params]
+author = "Kristof Torma"
+email = "iam@tormakristof.eu"
+copyCodeButton: true
 
   [params.sidebar]
   subtitle = 'DevOps Enginner'
