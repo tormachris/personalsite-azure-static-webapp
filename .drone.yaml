@@ -3,6 +3,11 @@ type: docker
 name: Azure Static WebApp
 
 steps:
+- name: Checkout submodules
+  image: bitnami/git
+  commands:
+  - git submodule update --init --recursive
+
 - name: Build and upload static web app
   environment:
     APITOKEN:
