@@ -1,4 +1,4 @@
-baseURL = 'https://www.tormakristof.eu/'
+baseURL = 'https://blog.tormakristof.eu/'
 languageCode = 'en-us'
 title = 'HomeLab misadventures'
 paginate = 5
